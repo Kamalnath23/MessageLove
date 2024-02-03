@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+:root{
+    --primary-color: #cgc3c3;
+    --secondary-color: #ffffff;
+    --black-color: #000000;
+
+}
+
+body{
+    background-image: url("19282.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: ChangeBGcolor var(--all-animations-duration) infinite alternate-reverse;
+	overflow-x: auto;
+    overflow-y: auto;
+	animation-play-state: var(--defaultAnimationState);
+
+}
+
+div.canvas{
+    position: absolute;
+    page-orientation: left;
+    left: 0;
+    width: 400px;
+    height: 300px;
+    border: 3px solid #73AD21;
+    background-attachment: scroll;
+    background-position-x: left;
+    background-position: 0%;
+}
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: --black-color;
+    text-align: center;
+    text-shadow: 2px 2px 4px whitesmoke;
+    text-decoration: solid;
+    background-position: 0%;
+    text-shadow: #dbb910b7;
+    text-transform: capitalize;
+    
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-decoration: solid;
+    text-decoration: none;
+    color: rgba(9, 43, 195, 0.599); 
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.message{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: large;
+}
+
+.ComeBack{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.signature{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    align-items: end;
+    align-self: self-end;
+    text-align: right;
+    font-weight: bold;
+}
+
+.conclusion{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: left;
+    font-weight: 900;
+}
+
